@@ -1,4 +1,36 @@
 /*testing css connected to html*/
-/*html{
-  background-color: red;
-};*/
+
+html{
+    background-color: gray;
+}
+
+#addAnimalButton{
+  position: relative;
+  float: right;
+  margin-left: 90%;
+  margin-top: 40%;
+  border-style: solid;
+  overflow: auto;
+
+}
+
+#animalInput{
+  margin-bottom: 2%;
+}
+
+.item{
+  position: relative;
+  float: left;
+  margin: 2%;
+
+}
+
+.animal{
+  margin-left: 1%;
+  margin-bottom: 1%;
+  color: white;
+  border-radius: 4px;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+  background: rgb(100, 184, 221);
+
+}
